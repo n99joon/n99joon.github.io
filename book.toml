@@ -1,14 +1,11 @@
 [book]
-authors = ["Steven Hé (Sīchàng)"]
-description = """Steven Hé (Sīchàng)'s personal website, \
-for notes, blogs, CV, and fun.
-Steven Hé (Sīchàng) is also known as Steven He, StevenHe, Sichang He, \
-SichangHe, StevenSichangHe, 何思畅, or 何思暢.
+authors = ["Joonyoung Bae"]
+description = """For note-taking
 """
 language = "en"
 multilingual = false
 src = "src"
-title = "Steven Hé (Sīchàng)"
+title = "Joonyoung Bae (Aaron)"
 
 [build]
 build-dir = "_site"
@@ -32,7 +29,7 @@ headers = [{ padding = "<!-- toc -->\n" }]
 footers = [
     { regex = "^blogs/", padding = """
 
-[*Steven Hé (Sīchàng)'s Blogs*](/blogs/)
+[*Joonyoung Bae (Aaron) *](/blogs/)
 
 <script src="https://giscus.app/client.js" data-repo="SichangHe/sichanghe.github.io" data-repo-id="R_kgDOJoD14g"
     data-category="General" data-category-id="DIC_kwDOJoD14s4CflYo" data-mapping="title" data-strict="1"
