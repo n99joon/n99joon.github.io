@@ -5,7 +5,7 @@ theme: just-the-docs
 url: https://n99joon.github.io
 
 aux_links:
-  Github: github.com/n99joon
+  Github: https://github.com/n99joon
 
 defaults:
   - scope:
