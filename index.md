@@ -6,4 +6,4 @@ nav_order : 1
 
 Joonyoung (Aaron)'s personal website
 
-Testing $x = y \ge 345 $
+Testing TeX $x = y \ge 345 $
