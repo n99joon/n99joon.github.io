@@ -2,6 +2,10 @@
 layout: default
 math: katex
 ---
+<p style="text-align: right; margin-top: 20px; font-style: italic; color: grey;">
+  Date Last Modified: {{ page.last_modified_at | date: "%B %d, %Y" }}
+</p>
+
 <div style="display: none">
   \(
   <!-- optional definitions using \newcommand, etc. (assuming globalGroup: true)
@@ -11,6 +15,3 @@ math: katex
 
 {{ content }}
 
-<p style="text-align: center; margin-top: 20px;">
-  Date modified: {{ page.last_modified_at | date: "%B %d, %Y" }}
-</p>
