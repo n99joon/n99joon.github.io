@@ -19,3 +19,10 @@ defaults:
 
 plugins:
   - jekyll-last-modified-at
+
+# navigation_order:
+#   - title: Home
+#   - title: paper
+#   - title: Useful Links
+#     children: 
+#     - title: Math

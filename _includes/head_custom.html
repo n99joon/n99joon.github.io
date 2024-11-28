@@ -25,3 +25,17 @@
   {% when "mathjax" %}
     {% include mathjax.html %}
 {% endcase %}
+
+{% assign ordered_pages = site.pages | sort: 'path' %}
+
+<ul class="nav-list">
+  {% for dir in site.config.navigation_order %}
+    {% for page in ordered_pages %}
+      {% if page.url contains dir %}
+        <li class="nav-item">
+          <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</ul>
