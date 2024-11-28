@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: home
+layout: katex
 nav_order : 1
 ---
 
