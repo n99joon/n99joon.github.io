@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: katex
+layout: mathjax
 nav_order : 1
 ---
 

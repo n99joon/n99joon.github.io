@@ -8,7 +8,8 @@ aux_links:
   Github: https://github.com/n99joon
 
 
-math: katex
+# math: katex
+math: mathjax
 
 defaults:
   - scope:
