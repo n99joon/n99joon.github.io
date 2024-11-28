@@ -9,10 +9,10 @@ aux_links:
 
 
 # math: katex
-math: mathjax
+math: mathjax3
 
 defaults:
   - scope:
       path: "" # an empty string here means all files in the project
     values:
-      layout: mathjax
+      layout: mathjax3
