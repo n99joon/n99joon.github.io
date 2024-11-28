@@ -3,16 +3,17 @@ description: personal website
 theme: just-the-docs
 
 url: https://n99joon.github.io
+baseurl: "/n99joon.github.io"
 
 aux_links:
   Github: https://github.com/n99joon
 
 
 # math: katex
-math: mathjax3
+math: mathjax
 
 defaults:
   - scope:
       path: "" # an empty string here means all files in the project
     values:
-      layout: mathjax3
+      layout: mathjax
