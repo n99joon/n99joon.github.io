@@ -1,5 +1,5 @@
 ---
-title : Paper
+title : Papers
 nav_order : 2
 ---
 
