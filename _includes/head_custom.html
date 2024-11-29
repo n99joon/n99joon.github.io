@@ -27,7 +27,7 @@
 {% endcase %}
 
 {% assign ordered_pages = site.pages | sort: 'path' %}
-
+<!-- 
 <ul class="nav-list">
   {% for dir in site.config.navigation_order %}
     {% for page in ordered_pages %}
@@ -38,4 +38,9 @@
       {% endif %}
     {% endfor %}
   {% endfor %}
-</ul>
+</ul> -->
+
+<p style="text-align: right; margin-top: 20px; font-style: italic; color: grey;">
+  Date Created: {{ page.date_created | date: "%B %d, %Y" }}  
+  Date Last Modified: {{ page.last_modified_at | date: "%B %d, %Y" }}
+</p>
