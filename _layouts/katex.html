@@ -13,5 +13,10 @@ math: katex
   \)
 </div>
 
+
 {{ content }}
 
+<p style="text-align: right; margin-top: 20px; font-style: italic; color: grey; font-size: small;">
+  Date First Created: {{ page.date | date: "%B %d, %Y" }}<br>
+  Date Last Modified: {{ page.last_modified_at | date: "%B %d, %Y" }}
+</p>

@@ -2,6 +2,7 @@
 title : Math
 nav_order : 1
 parent : Useful Links
+date: 2024-11-28
 ---
 
 ### Vim + Latex Setup:
