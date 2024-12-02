@@ -18,4 +18,6 @@ date: 2024-11-28
 ### Probabilities and Statistics:
 1. [Intro to Prob, stats and Random Processes Textbook](https://www.probabilitycourse.com/)
 
+### Spectral Graph Theory 
+1. [Spectral Graph Theory Course in Yale by Dan Spielman](https://www.cs.yale.edu/homes/spielman/561/)
 
