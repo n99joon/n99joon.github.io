@@ -15,7 +15,7 @@ Vectors, elements of vector analysis, applications to curves and surfaces, stand
 Books:  
 * Calculus on Manifolds (2nd ed) - Spivak
 * Differential Topology - Guillemin & Pollack
-* Differential Geometry af Curves & Surfaces
+* Differential Geometry at Curves & Surfaces
 
 
 
