@@ -39,7 +39,7 @@ Then the following are equivalent
 * Function is cts. := It is cts at every point in its domain.  
 
 #### Proof 
-(1) <=> (2) is easy (Do translation(shift/move) to 0)
+(1) <=> (2) is easy (Do translation(shift/move) to 0)  
 (2) <=> (3):  
 1. (2) => (3)  
 If continuous, $$\exists \delta$$ s.t. $\mid x - 0 \mid < \delta \implies \mid T(x) - T(0) \mid < \epsilon = 1$ (for specific epsilon = 1)  
