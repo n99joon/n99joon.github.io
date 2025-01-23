@@ -1,5 +1,5 @@
 ---
-title : Lec1
+title : Lec1:Locally_Euclidean
 nav_order : 1
 parent : Math535a Diff Geo
 date: 2025-01-14
@@ -124,7 +124,7 @@ A topological space $X$ is compact if every open cover of $X$ has a finite subco
 3. $S^d \subseteq \mathbb{R}^{d+1}$ is locally Euclidean  
 Proof is using Stereographic Projection to show Homeomorphic Neighborhood
 4. $$C_+^2 = \{ (x_1, x_2, x_3) \mid x_3^2 = x_1^2 + x_2^2, x_3 \ge 0 \}$$  
-It is a cone, we can porject onto x1 X x2 plane. 
+It is a cone, we can project onto x1 X x2 plane. 
 
 ### Not Locally Euclidean Examples
 1. $$C_{\pm}^2 = \{ (x_1, x_2, x_3) \mid x_3^2 = x_1^2 + x_2^2 \}$$  
