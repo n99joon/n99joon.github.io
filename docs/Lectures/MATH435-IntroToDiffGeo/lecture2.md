@@ -18,7 +18,7 @@ So, $$z^{\perp} = ker(<z,\cdot>)$$ and it is defined by the $$z$$.  ($$dim(ker) 
 
 ### Inner prod gives norm
 $$<\cdot, \cdot>:V \times V \to \mathbb{R}$$  
-$$ \to \| \|_{<\cdot, \cdot>} : V \to \mathbb{R} $$ same as $$ z \mapsto <z,z>^{1/2} $$  
+$$ \implies \| \|_{<\cdot, \cdot>} : V \to \mathbb{R} $$ same as $$ z \mapsto <z,z>^{1/2} $$  
 
 ## Cauchy Schwartz Inequality 
 $$ |<x,y>| \le \|x\|*\|y\| $$  
