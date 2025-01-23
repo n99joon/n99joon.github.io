@@ -45,7 +45,7 @@ Then the following are equivalent
 If continuous, $$\exists \delta$$ s.t. $\mid x - 0 \mid < \delta \implies \mid T(x) - T(0) \mid < \epsilon = 1$ (for specific epsilon = 1)  
 $$\therefore \forall x \in B_\delta (0), \| Tx \| < 1$$  
 set $$\tilde{x} = \delta/2 * x/{\| x \|}$$ (rescale the vector x with length $\delta/2$, so it is inside the ball)  
-$$\| T \tilde(x) \| < 1$$  
+$$\| T \tilde{x} \| < 1$$  
 $$ \implies \| T (\delta/2 * x/{\| x \|}) \| < 1$$  
 $$ \implies \| Tx \| < 2*{\| x \|} / \delta $$  
 set $$m = 2/\delta$$ and this delta changes for every function.  
