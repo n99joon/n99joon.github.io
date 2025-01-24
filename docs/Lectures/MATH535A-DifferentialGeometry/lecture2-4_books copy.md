@@ -1,5 +1,5 @@
 ---
-title : Lec2-4
+title : Lec2-4 From Book
 nav_order : 2
 parent : Math535a Diff Geo
 date: 2025-01-23
