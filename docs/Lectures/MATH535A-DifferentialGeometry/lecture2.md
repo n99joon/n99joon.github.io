@@ -5,7 +5,7 @@ parent : Math535a Diff Geo
 date: 2025-01-23
 modified: 2025-01-23
 ---
-# Lecture 2-4  
+# Lecture 2 
 #### Locally Euclidean
 Hausdorff & Each point is locally homeomorphic.  
 
