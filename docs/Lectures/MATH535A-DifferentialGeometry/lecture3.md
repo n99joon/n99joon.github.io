@@ -1,6 +1,6 @@
 ---
-title : Lec2
-nav_order : 3
+title : Lec3
+nav_order : 4
 parent : Math535a Diff Geo
 date: 2025-01-23
 modified: 2025-01-23
@@ -46,4 +46,19 @@ $X \circ X^{-1}$ is $C^k$ differenciable
 The $C^1$ differentiability ensures that the manifold already has well-defined tangent spaces and a coherent differentiable structure.
 
 While every $C^1$ manifold can be made $C^k$, this is not necessarily true for $C^0$ (topological) manifolds, which might not even admit a $C^1$ structure.
+
+#### Compatible
+$F$ and $F'$ are compatible (meaning $\forall (U, X) \in F, (U, Y) \in F'$,  
+if $X \circ Y^{-1}$ and $Y \circ X^{-1}$ are smooth, then $(U, Y) \in F$ and $(U, X) \in F'$, so $F = F'$). 
+
+### Is compatibility an equivalance relation?  
+Yes. (Satisfies all Reflexivity / Symmetry / Transitivity)  
+**Reflexivity:**  
+$F$ is compatible with itself because the transition maps between charts within $F$ are smooth by definition of a differentiable structure.
+
+**Symmetry:**  
+If $F$ is compatible with $F'$, then $F'$ is compatible with $F$, because the smoothness of $X \circ Y^{-1}$ implies the smoothness of $Y \circ X^{-1}$.
+
+**Transitivity:**  
+If $F$ is compatible with $F'$, and $F'$ is compatible with $F''$, then $F$ is compatible with $F''$. The composition of smooth maps is smooth, ensuring smooth transition maps between $F$ and $F''$.
 
