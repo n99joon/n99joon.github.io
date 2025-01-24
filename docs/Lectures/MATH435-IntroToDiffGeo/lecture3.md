@@ -20,7 +20,7 @@ for any $$\epsilon > 0, \exists \delta$$ s.t. for all $$x \in B_{\delta}(a), f(x
 Say $$f$$ is "sequence cts" at $$a$$. Assume 2) does not hold. (Proof by contradiction)  
 Then, it means $$\exists \epsilon$$ s.t. $$ \forall \delta > 0, \exists x_\delta \in B_{\delta}(a)$$ and $$f(x_\delta) \notin B_{\epsilon}(f(a))$$  
 Let $$\epsilon_0$$ be that epsilon and define some sequence $$(x_n)$$ that satisfies $$|x_n - a| < 1/n$$ and $$|f(x_n) - f(a)| \ge \epsilon_0$$.  
-This $${x_n}$$ converges as $$|x_n - a|$$ converges to 0.  
+This $${x_n}$$ converges to $a$ as $$|x_n - a|$$ converges to 0.  
 By sequence cts, $$f(x_n) \to f(a)$$ because $$x_n \to a$$ but it contradicts. So contradiction. 
 
 2) Prove 2) => 1)  
