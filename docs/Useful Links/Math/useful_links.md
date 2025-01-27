@@ -3,7 +3,7 @@ title : Math
 nav_order : 1
 parent : Useful Links
 date: 2024-11-28
-modified: 2024-12-02
+modified: 2025-01-26
 ---
 
 ### Vim + Latex Setup:
@@ -26,3 +26,15 @@ modified: 2024-12-02
 3. [Lectures on Spectral Graph Theory - Fan Chung](https://mathweb.ucsd.edu/~fan/research/cbms.pdf)
 - Full version in library 
 - Theoretical foundations of spectral graph theory 
+
+### Topology
+1. [Topology (2nd edition) by James R. Munkres.](https://people.math.ethz.ch/~dkosanovic/24-FS/Munkres-Topology.pdf)
+- Ch 1-3 is the syllabus for MATH440 Topology 
+2. [Prof Sheel Ganatra's MATH440](https://sheelganatra.com/math440/)
+- Problem sets for MATH440 with solutions
+
+### Differential Geometry 
+1. [Foundations of Differentiable Manifolds and Lie Groups by Warner]
+- Concise book (Used in MATH535a) 
+2. [Introduction to smooth manifolds - John Lee]
+- Very detailed book 

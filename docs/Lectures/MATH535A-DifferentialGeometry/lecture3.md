@@ -18,3 +18,4 @@ Proof
 
 ### Existence of partition of unity 
 
+### Real projective space $\mathbb{R} \mathbb{P}^d$

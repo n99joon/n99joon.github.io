@@ -1,6 +1,6 @@
 ---
 title : Math535a Diff Geo
-nav_order : 1
+nav_order : 3
 parent : Lectures
 date: 2025-01-14
 modified: 2025-01-14

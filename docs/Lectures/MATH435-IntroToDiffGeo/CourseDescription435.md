@@ -1,6 +1,6 @@
 ---
 title : Math435 Intro Diff Geo
-nav_order : 1
+nav_order : 2
 parent : Lectures
 date: 2025-01-19
 modified: 2025-01-19

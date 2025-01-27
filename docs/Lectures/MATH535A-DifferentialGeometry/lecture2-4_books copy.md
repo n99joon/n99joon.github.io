@@ -70,4 +70,4 @@ $$
 
 The equality holds when the $\mathbf{e}^{i}$'s are the dual basis of the $\mathbf{e}_{i}$'s. Notice the difference in the position of the index $i$.
   
-
+### Submanifold
