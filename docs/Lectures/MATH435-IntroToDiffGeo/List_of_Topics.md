@@ -1,5 +1,5 @@
 ---
-title : List_of_Topics
+title : _List_of_Topics
 nav_order : 1
 parent : Math435 Intro Diff Geo
 date: 2025-02-04
