@@ -127,3 +127,6 @@ composite of cts funcs.
 <=  
 Use any norm (Equiv. in Euclidean Space) and show addition of distances of each coordinate can sum up to below epsilon.
 ### If each $f_i$ is diff $\implies$ f is diff 
+$$Df|_a = (Df_1|_a, ..., Df_m|_a)$$  
+Inverse is also true.  
+### Ex) $f(x,y) = x \cdot y$ is diff ($f: \mathbb{R}^2 \to \mathbb{R}$)
