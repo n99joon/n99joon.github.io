@@ -19,7 +19,7 @@ modified: 2025-02-04
 ### Define Norm from Inner Prod
 The triangle inequality of the inner prod induced norm is proved using Cauchy Schwartz
 ### Proof of Cauchy Schwartz  
-Write $$f(t) := \| x + ty \| ^2$$ as a function of how norm squared changes changes as one of the vector scales up, complete the squares and find the minimum point. (Based on the fact that norm is convex function and there exists a global minimum)
+Write $$f(t) := \| x + ty \| ^2$$ as a function of how norm squared changes as one of the vector scales up, complete the squares and find the minimum point. (Based on the fact that norm is convex function and there exists a global minimum)
 ### Convergence of Sequences 
 ### $$x_n \to x \ \& \  x_n \to y \implies x = y$$
 ### Continuous (Sequence Definition)
@@ -130,3 +130,22 @@ Use any norm (Equiv. in Euclidean Space) and show addition of distances of each 
 $$Df|_a = (Df_1|_a, ..., Df_m|_a)$$  
 Inverse is also true.  
 ### Ex) $f(x,y) = x \cdot y$ is diff ($f: \mathbb{R}^2 \to \mathbb{R}$)
+
+# Lecture 10
+### Curves in $\mathbb{R}^n$ 
+Differentiable curve  
+* $$D\gamma \mid _0: \mathbb{R} \to \mathbb{R}^n$$ Linear Map.  
+- Means it is a tangent curve to the line at 0  
+* $$\gamma'(0) := D\gamma |_0(1)$$  
+- The $D\gamma$  gives a direction vector and $(1)$ gives us a specific vector like a unit vector  
+* $$\gamma$$ centered at $$p$$ if $$\gamma(0) = p$$  
+* $$\gamma$$ tangent to $v$ at $p$ if $\gamma$ based at $p$ and $\gamma'(0) = v$  
+
+### Curves to Evaluate $Df_a(v)$  
+$Df \mid _a(v)$ = Tangent plane at $a$ in direction of $v$  
+$$Df \mid _a(v) = d/dt \mid_{t=0} f(\gamma _v (t))$$ (rate of change of f along the gamam line at t=0)  
+Proof  
+
+### Partial derivative written as differentiating a curve  
+### Partial derivatives Commutes for $C^2$
+$df/dx_i dx_j = df/dx_j dx_i$
