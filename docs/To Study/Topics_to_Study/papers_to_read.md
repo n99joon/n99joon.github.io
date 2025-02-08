@@ -19,5 +19,6 @@ List of topics to study/revise
 9. MGF, Hypothesis Testing, Bounds, etc.. 
 10. Convergence test (ratio test, root test, etc. for series)
 11. Chinese remainder theorem, Fermat, etc. 
-
+12. High Dim. Normal Dist. looks like a ring? 
+13. High dimensional probabilities
 
