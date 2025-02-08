@@ -172,7 +172,7 @@ $$f(a+h) - f(a) = f(a_1 + h_1, ..., ) - f(a_1, a_2, ..., a_n)$$
 Fix a small h  
 Write in telescopic sum  
 $$g_1(t) := f(a_1 + t ,..., a_n)$$  
-$$g_1(h_1) - g_2(0) = g_1'(c_1) * h_1$$ <- First row of telescopic sum (MVT) 
+$$g_1(h_1) - g_2(0) = g_1'(c_1) * h_1$$ <- First row of telescopic sum (MVT)  
 Triangle Ineq & Cauchy Schwartz
 
 Next class = When does it fail without "cts in the open set" condition
