@@ -1,7 +1,7 @@
 ---
-title : To Read
+title : Papers
 nav_order : 1
-parent: Papers
+parent: To Study
 date: 2024-12-06
 modified: 2024-12-06
 ---

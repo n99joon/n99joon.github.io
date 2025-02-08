@@ -1,5 +1,5 @@
 ---
-title : _List_of_Topics
+title : Summary of Topics
 nav_order : 0
 parent : Math435 Intro Diff Geo
 date: 2025-02-04
@@ -149,3 +149,27 @@ Proof
 ### Partial derivative written as differentiating a curve  
 ### Partial derivatives Commutes for $C^2$
 $df/dx_i dx_j = df/dx_j dx_i$
+
+# Lecture 11 
+### $$Df\mid _0 (e_1)$$
+$$Df\mid _0 (e_1) = \frac{d}{dt} \mid _{t=0} (f(\gamma(t)))$$
+The rate change of f in direction of e1 = rate of change of f along the gamma line that is moving in e1
+
+### How to calculate $$Df \mid _0 (e_1 + 2e_2)$$? 
+**Method 1.**  
+Fix $\gamma$ at 0, make it tangent to $e_1 + 2e_2$ , i.e. (t,2t)   
+**Method 2.**   
+Linearity of Df + <$e_1, ..., e_n$> = basis of $\mathbb{R}^n$  
+$Df(e_1) + 2Df(e_2)$
+
+### Total Derivative & Partial Derivative
+Thm: f diff at a => partials exist  
+Proof: m=1 case  
+Thm: if partial diffs exist at a and cts in the open set, then $Df \mid _a$ exists.  
+Proof: Mean Value Theorem Based  
+Want to show $$Df{\mid} _a = [\frac{\partial f}{\partial x_1}{\mid} _a, ..., \frac{\partial f}{\partial x_n}{\mid} _a]$$  
+$$f(a+h) - f(a) = f(a_1 + h_1, ..., ) - f(a_1, a_2, ..., a_n)$$  
+Fix a small h  
+Write in telescopic sum  
+$$g_1(t) = f(a_1 + t ,..., a_n)$$  
+$$g_1(h_1) - g_2(0) = g_1'(c_1) * h_1$$ (MVT) 
