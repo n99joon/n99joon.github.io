@@ -117,3 +117,9 @@ Say this x_{u,v} is like a metric satisfying triangle inequality.
 * Randomly selecting a node and choosing all nearby nodes as one community and removing  
 * ^ Doesn't work because can have many far-away(- edges) among included nodes
 * Alg: Choose a node u, get all nodes in a radius ball of 1/2, if avg dis >1/4 make {u} a singleton cluster, otherwise get all the nodes in ball with u as one cluster, remove them, and continue. 
+
+# Lecture 8
+### Proof of 4-Approx of Min Disagree (Correlation Clustering) 
+ILP - LP Relaxation  
+### Classification with Pairwise Information 
+ILP formulation 

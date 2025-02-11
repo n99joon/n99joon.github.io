@@ -176,3 +176,16 @@ $$g_1(h_1) - g_2(0) = g_1'(c_1) * h_1$$ <- First row of telescopic sum (MVT)
 Triangle Ineq & Cauchy Schwartz
 
 Next class = When does it fail without "cts in the open set" condition
+
+# Lecture 12
+### Dimension of $$D^i f$$?
+#### $$Hom_{lin}(\mathbb{R}^n,\mathbb{R}^n)$$
+Set of all linear maps from Rn to Rm
+### smooth function
+### smooth functions from subsets of $\mathbb{R}^n$
+### Induced Metric
+### Equal?  
+* Isomorphism of vector spaces  
+* Homeomorphism of metric spaces  
+* Diffeomorphism  
+### Manifold

@@ -2,8 +2,8 @@
 title : Topics
 nav_order : 0
 parent: To Study
-date: 2024-12-06
-modified: 2024-12-06
+date: 2025-02-06
+modified: 2025-02-08
 ---
 
 List of topics to study/revise
@@ -21,4 +21,7 @@ List of topics to study/revise
 11. Chinese remainder theorem, Fermat, etc. 
 12. High Dim. Normal Dist. looks like a ring? 
 13. High dimensional probabilities
-
+14. Purity & Reverse Purity 
+15. Metropolis Algorithm (& general Local Algorithms) 
+16. Power Law
+17. Integrality Gap 

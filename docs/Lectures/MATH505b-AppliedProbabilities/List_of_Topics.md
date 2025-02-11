@@ -41,9 +41,20 @@ if $\pi = \pi^1 + i \pi^2$, then the real part itself is an eigenvector.
 No, if two disconnect nodes  
 
 ### Thm
-$$ supp(\pi) := { k \in S : \pi_k > 0}
+$$ supp(\pi) := { k \in S : \pi_k > 0}$$  
 Let $S = T \sqcup C_1 \sqcup C_2 \sqcup ...$    
 Then $\pi$ is stationary $\iff \pi = \sum_l \lambda_l \pi_l$, where 
 $l = C_i$,  
 (i) Sum of lambda = 1 & >=0,  
 (ii) Each $\pi_l$ is stationary with $supp(\pi_l) = C_l$
+
+# Lecture 12
+### Null-Recurrence destroys the existence of stationary distribution 
+$$n \pi_k = n / \mu_k$$ both are expected # of visits of k in n rounds of random walk  
+* $$\mu_k$$ = Avg time of return to k  
+### Assume Pos-Rec, show $$\pi_k = 1/ \mu_k$$ is the stationary distr.  
+### Proof of uniqueness
+* $$\pi_k > 0 $$ from irreducible  
+* Proof like LP basic solution  
+* Only work if finite # of states  
+### Proof of existence  
