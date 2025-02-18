@@ -188,4 +188,43 @@ Set of all linear maps from Rn to Rm
 * Isomorphism of vector spaces  
 * Homeomorphism of metric spaces  
 * Diffeomorphism  
+
+Let $M$ and $N$ be smooth manifolds. A map $f : M \to N$ is called a diffeomorphism if:
+
+$1)\quad f$ is a bijection,$
+
+$2)\quad f$ is smooth (i.e., $C^\infty$),$
+
+$3)\quad f^{-1}$ is also smooth.$
+
+If such an $f$ exists, we say that $M$ and $N$ are diffeomorphic.
+
 ### Manifold
+$X \subset \mathbb{R}^N$ is a $k$-dim manifold if $x \in X$, $x \in V$, open in $X$, has $\Phi : U \to V$, $U \subset \mathbb{R}^k$ and its inverse mapping both diffeomorphism. 
+
+# Lecture 13 
+### Parametrization & Coordinate Chart
+### HW: $g \circ \Phi = id \implies \Phi$ is inj. 
+### Inverse Function Theorem 
+$f : O_1 \to O_2$ where $O_1, O_2 \subset \mathbb{R}^n$ (Open) be continuously diff ($C^1$). and $a \in O_1$ such that $det(Df \mid _a) \neq 0$ (Or invertible/Full rank).  
+Then there exists $V$ nbd of $a$,  
+$f: V \to W$ is a diffeomorphism.  
+i.e. $f^{-1} : W \to V$ is diff, and $D(f^{-1}) \mid _y = [Df \mid _{f^{-1}(y)}]^{-1}$
+
+If locally slope is not 0, there is an inverse locally (Or injection). (e.g. projection onto y-axis)
+
+# Lecture 14
+### Rectangle $A$ / Interior $A^o$ / Boundary $2A$
+### Lemma : Bounded by $\mid f(x) - f(y) \mid < n^2 M \mid x - y \mid$
+### Inverse Function Theorem
+Vibe: $Df \mid _a $ is 'the best linear' Approximate.  
+If $Df \mid _a : \mathbb{R}^n \to \mathbb{R}^n$ is a bijection  
+then $f: V \to W$ is a bijection.  
+### Steps of Inv. Func. Theorem. 
+Proof: Assume $Df \mid _a = id$ If not prove for $g = (Df \mid _a) ^{-1} \circ f$ then $Dg \mid _a = id$.  
+### HW: 
+* $Df : O_1 \to$ Matrices $(\mathbb{R}^{n^2})$ is cts.
+* $det : (\mathbb{R}^{n^2}) \to \mathbb{R}$ is cts.  
+
+### $ \mid x_1 - x_2 \mid \le 2 \mid f(x_1) - f(x_2) \mid \forall x_1, x_2 \in U_2$  
+$\implies f: U_2 \to Y$ is injective. $f(x_1) = f(x_2) \implies x_1 = x_2$
