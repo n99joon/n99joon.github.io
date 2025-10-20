@@ -58,3 +58,7 @@ $$n \pi_k = n / \mu_k$$ both are expected # of visits of k in n rounds of random
 * Proof like LP basic solution  
 * Only work if finite # of states  
 ### Proof of existence  
+
+
+# Lec 20 
+## Martingales

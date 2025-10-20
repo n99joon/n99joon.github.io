@@ -5,8 +5,9 @@ theme: just-the-docs
 url: https://n99joon.github.io
 
 aux_links:
-  Github: https://github.com/n99joon
-
+  GitHub: https://github.com/n99joon
+  Google Scholar: https://scholar.google.com/citations?user=P_dzLk8AAAAJ&hl=en&oi=ao
+  CV: /assets/files/Aaron_PhD_CV.pdf
 
 # math: katex
 math: mathjax
@@ -20,6 +21,7 @@ defaults:
 plugins:
   - jekyll-last-modified-at
 
+search_enabled: false
 # navigation_order:
 #   - title: Home
 #   - title: paper
