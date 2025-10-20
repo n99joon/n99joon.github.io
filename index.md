@@ -139,7 +139,7 @@ date: 2024-11-28
     </p>
 
     <p>
-      My research interest lies in capturing and explaining the structure and phenomena underlying real-world processes. From this perspective, I have analyzed high-dimensional biological and image data using mathematical tools from differential geometry, statistical machine learning, and spectral graph theory. More broadly, I am also interested in areas such as algorithmic game theory and optimization.
+      My research interest lies in capturing and explaining the structure and phenomena underlying real-world processes. From this perspective, I have analyzed high-dimensional biological and image data using mathematical tools from differential geometry, statistical machine learning, and spectral graph theory. More broadly, I am also interested in the areas of algorithmic game theory and optimization.
     </p>
   </div>
 </div>

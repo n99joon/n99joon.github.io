@@ -3,7 +3,7 @@ title : Research
 nav_order : 2
 ---
 
-I am currently working on (1) observing interesting structures or pattern in high-dimensional biology data, (2) devising clustering/visualization algorithms to exploit them, and (3) theoretically formulating the model and performance guarantee. Below are main results: 
+I am currently working on (1) uncovering interesting structures and patterns in high-dimensional biology data, (2) devising clustering/visualization algorithms to exploit them, and (3) theoretically formulating the model and performance guarantee. Below are the main results: 
 
 <hr style="margin: 2rem 0;">
 
