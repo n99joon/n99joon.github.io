@@ -69,7 +69,7 @@ date: 2024-11-28
     </p>
 
     <p>
-      I enjoy learning new domains of knowledge required to solve a problem, and along the process of problem-solving, I have learned and applied concepts from Differential Geometry, Machine Learning, Optimization, (Algorithmic) Game Theory, and many more.
+      My research interest lies in capturing/explaining structure/phenomena observed in real world processes. I have approached analysis of high dimensional biological data and image data from this perspective using mathematical tools from differential geometry, statistical machine learning, and spectral graph theory. In beyond, I am also interested in domains of computer science such as algorithmic game theory and optimization which are of similar taste. 
     </p>
   </div>
 </div>

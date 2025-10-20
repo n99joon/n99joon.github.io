@@ -99,7 +99,7 @@ I am currently working on (1) observing interesting structures or pattern in hig
     <p>
       It was submitted as a final project for <a href="https://david-kempe.com/CS673/index.html" target="_blank" rel="noopener noreferrer">
         CSCI673:Structure and Dynamics of Networked Information
-      </a> by Prof. David Kempe and later it appeared on paper <a href="https://arxiv.org/pdf/2502.03545" target="_blank" rel="noopener noreferrer">Papasotiropoulos et. al., 2025</a> with some initial theoretical guarantees. 
+      </a> by Prof. David Kempe, and also independently appeared in the paper <a href="https://arxiv.org/pdf/2502.03545" target="_blank" rel="noopener noreferrer">Papasotiropoulos et. al., 2025</a> with theoretical guarantees and other algorithms. 
     </p>
   </div>
 </div>
