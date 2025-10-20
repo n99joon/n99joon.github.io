@@ -17,14 +17,15 @@ date: 2024-11-28
 
 .profile-photo {
   flex: 1 1 250px;          /* grow/shrink, min width */
-  max-width: 250px;         /* optional */
+  max-width: 250px;
   text-align: center;
 }
 
-.profile-photo img {
+.profile-figure img {
   width: 100%;
-  border-radius: 50%;       /* makes it circular */
+  border-radius: 50%;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  cursor: zoom-in;          /* show zoom icon on hover */
 }
 
 .profile-email {
@@ -34,18 +35,87 @@ date: 2024-11-28
 }
 
 .profile-bio {
-  flex: 2 1 400px;          /* take more space for text */
+  flex: 2 1 400px;
   font-size: 1.05rem;
   line-height: 1.6;
-  text-align: justify;      /* ✅ makes text edges align neatly */
-  hyphens: auto;            /* ✅ allows natural word breaks */
-  text-justify: inter-word; /* ✅ evenly distributes spacing */
+  text-align: justify;
+  hyphens: auto;
+  text-justify: inter-word;
+}
+
+/* ===== Lightbox modal ===== */
+.img-modal {
+  position: fixed;
+  inset: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,0.8);
+  z-index: 9999;
+}
+
+.img-modal.open { display: flex; }
+
+.img-modal__content {
+  position: relative;
+  max-width: min(90vw, 900px);
+  max-height: 90vh;
+  text-align: center;
+}
+
+.img-modal__img {
+  max-width: 100%;
+  max-height: 80vh;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+}
+
+.img-modal__caption {
+  margin-top: 0.75rem;
+  color: #eee;
+  font-size: 0.95rem;
+}
+
+.img-modal__close {
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  border: none;
+  padding: 0.4rem 0.6rem;
+  border-radius: 999px;
+  cursor: pointer;
+  background: #fff;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.25);
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+.img-modal__close:focus { outline: 2px solid #4a90e2; }
+
+.sr-only {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 1px, 1px);
+  white-space: nowrap;
+  border: 0;
 }
 </style>
 
 <div class="profile-container">
   <div class="profile-photo">
-    <img src="/assets/images/profile.jpg" alt="Joonyoung (Aaron) Bae">
+    <figure class="profile-figure">
+      <img
+        id="profileImg"
+        src="/assets/images/profile_photo.jpg"
+        alt="Joonyoung (Aaron) Bae"
+        data-caption="At USC Ginsburg Hall - Photo by Xinyu Mao"
+      />
+      <figcaption class="sr-only">
+        Joonyoung (Aaron) Bae — USC CS Theory Group
+      </figcaption>
+    </figure>
     <div class="profile-email">
       Email: joonyoungbae.aaron [at] gmail [dot] com
     </div>
@@ -69,7 +139,48 @@ date: 2024-11-28
     </p>
 
     <p>
-      My research interest lies in capturing/explaining structure/phenomena observed in real world processes. I have approached analysis of high dimensional biological data and image data from this perspective using mathematical tools from differential geometry, statistical machine learning, and spectral graph theory. In beyond, I am also interested in domains of computer science such as algorithmic game theory and optimization which are of similar taste. 
+      My research interest lies in capturing and explaining the structure and phenomena underlying real-world processes. From this perspective, I have analyzed high-dimensional biological and image data using mathematical tools from differential geometry, statistical machine learning, and spectral graph theory. More broadly, I am also interested in areas such as algorithmic game theory and optimization.
     </p>
   </div>
 </div>
+
+<!-- ===== Modal Lightbox HTML ===== -->
+<div id="imgModal" class="img-modal" role="dialog" aria-modal="true" aria-hidden="true">
+  <div class="img-modal__content">
+    <button class="img-modal__close" aria-label="Close (Esc)" id="imgModalClose">×</button>
+    <img class="img-modal__img" id="imgModalImg" alt="">
+    <div class="img-modal__caption" id="imgModalCaption"></div>
+  </div>
+</div>
+
+<script>
+(function () {
+  const thumb = document.getElementById('profileImg');
+  const modal = document.getElementById('imgModal');
+  const modalImg = document.getElementById('imgModalImg');
+  const modalCaption = document.getElementById('imgModalCaption');
+  const btnClose = document.getElementById('imgModalClose');
+
+  function openModal() {
+    modalImg.src = thumb.src;
+    modalImg.alt = thumb.alt || '';
+    modalCaption.textContent = thumb.dataset.caption || thumb.alt || '';
+    modal.classList.add('open');
+    modal.setAttribute('aria-hidden', 'false');
+    btnClose.focus();
+  }
+
+  function closeModal() {
+    modal.classList.remove('open');
+    modal.setAttribute('aria-hidden', 'true');
+    thumb.focus && thumb.focus();
+  }
+
+  thumb.addEventListener('click', openModal);
+  btnClose.addEventListener('click', closeModal);
+  modal.addEventListener('click', (e) => { if (e.target === modal) closeModal(); });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && modal.classList.contains('open')) closeModal();
+  });
+})();
+</script>
