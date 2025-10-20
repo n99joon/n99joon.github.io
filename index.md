@@ -113,7 +113,7 @@ date: 2024-11-28
         data-caption="At USC Ginsburg Hall - Photo by Xinyu Mao"
       />
       <figcaption class="sr-only">
-        Joonyoung (Aaron) Bae — USC CS Theory Group
+        Joonyoung (Aaron) Bae
       </figcaption>
     </figure>
     <div class="profile-email">
