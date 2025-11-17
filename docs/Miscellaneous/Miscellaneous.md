@@ -1,7 +1,7 @@
 ---
 title: Miscellaneous
 layout: mathjax
-nav_order: 2
+nav_order: 3
 ---
 
 Besides academics, I enjoy doing music! I am an aspiring Jazz musician as well since it is the musical language to freely express what's in my mind. 
