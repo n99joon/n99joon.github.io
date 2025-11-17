@@ -13,7 +13,7 @@ USC Concert Choir — **Bass (2024)**
 <div class="gallery">
   <img src="/assets/images/hku_choir2.jpeg" alt="Conducting at HKU Interhall Choir Competition (2018)" data-caption="Conducting at HKU Interhall Choir Competition (2018)">
   <img src="/assets/images/hku_choir1.jpeg" alt="After the Competition (2018)" data-caption="After the Competition (2018)">
-  <img src="/assets/images/usc_choir3.png" alt="USC Concert Choir Recital (2024)" data-caption="USC Concert Choir Recital (2024)">
+  <img src="/assets/images/usc_choir3.PNG" alt="USC Concert Choir Recital (2024)" data-caption="USC Concert Choir Recital (2024)">
   <img src="/assets/images/usc_choir2.jpeg" alt="Before the Concert in Tijuana, Mexico (2024)" data-caption="Before the Concert in Tijuana, Mexico (2024)">
   <img src="/assets/images/usc_choir1.jpeg" alt="Before the Concert in Tijuana, Mexico (2024)" data-caption="Before the Concert in Tijuana, Mexico (2024)">
 </div>
@@ -23,7 +23,7 @@ HKU St. John’s College Band (2017–2020)
 
 <div class="gallery">
   <img src="/assets/images/band1.jpeg" alt="Bass" data-caption="Playing Bass">
-  <img src="/assets/images/band2.png" alt="Keyboard" data-caption="Playing Keyboard">
+  <img src="/assets/images/band2.PNG" alt="Keyboard" data-caption="Playing Keyboard">
 </div>
 
 <style>
