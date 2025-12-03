@@ -16,7 +16,7 @@ I am currently working on (1) uncovering interesting structures and patterns in 
 
   <div style="flex: 1 1 400px; max-width: 550px; text-align: justify; hyphens: auto; text-justify: inter-word;">
     <h2 style="margin-top: 0;">
-      <a href="https://arxiv.org/pdf/2507.08243" target="_blank" rel="noopener noreferrer" style="color: black;">
+      <a href="/assets/files/corespect.pdf" target="_blank" rel="noopener noreferrer" style="color: black;">
         <b>CoreSPECT: Enhancing Clustering Algorithms via an Interplay of Density and Geometry</b>
       </a>
     </h2>
