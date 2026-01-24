@@ -22,8 +22,9 @@ I am currently working on (1) uncovering interesting structures and patterns in 
     </h2>
 
     <p style="margin-top: 0.8rem; margin-bottom: 1rem; font-style: italic; color: #555;">
-      <b>Chandra Sekhar Mukherjee*</b>, <b>Joonyoung Bae*</b>, and <b>Jiapeng Zhang</b> (* Equal Contribution)
-    </p>
+      <b>Chandra Sekhar Mukherjee*</b>, <b>Joonyoung Bae*</b>, and <b>Jiapeng Zhang</b> (* Equal Contribution) - <b>AISTATS 2026</b>
+     
+    </p> 
 
     <p>
       <b>CoreSPECT</b> (Core Space Projection-based Enhancement of Clustering Techniques) introduces a unified framework integrating
@@ -93,7 +94,7 @@ I am currently working on (1) uncovering interesting structures and patterns in 
     </p>
 
     <p>
-      By viewing nodes on the graph as voters/candidates and the edges as approval ballots, we devised a new graph centrality measure that guarantees balancedness of various size clusters by applying committee selection algorithms that guarantees justified representation. Mainly <b>Method of Equal Shares (MES)</b> algorithm was used as it was the only algorithm with reasonable run-time. The performance was empirically tested and it showed promising outcome compared to other existing centrality measures such as Pagerank.  
+      By viewing nodes on the graph as voters/candidates and the edges as approval ballots, we devised a new graph centrality measure that guarantees that representatives of various-sized clusters are chosen in proportion to their sizes by applying committee selection algorithms that guarantee justified representation. Mainly <b>Method of Equal Shares (MES)</b> algorithm was used as it was the only algorithm with a reasonable run-time. The performance was empirically tested and it showed promising outcome compared to other existing centrality measures such as PageRank.  
     </p>
 
     <p>

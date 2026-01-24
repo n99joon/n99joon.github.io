@@ -10,13 +10,13 @@ date: 2024-11-28
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;          /* makes it responsive */
-  gap: 2rem;                /* spacing between photo and text */
+  flex-wrap: wrap;
+  gap: 2rem;
   margin-top: 2rem;
 }
 
 .profile-photo {
-  flex: 1 1 250px;          /* grow/shrink, min width */
+  flex: 1 1 250px;
   max-width: 250px;
   text-align: center;
 }
@@ -25,7 +25,7 @@ date: 2024-11-28
   width: 100%;
   border-radius: 50%;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  cursor: zoom-in;          /* show zoom icon on hover */
+  cursor: zoom-in;
 }
 
 .profile-email {
@@ -41,6 +41,25 @@ date: 2024-11-28
   text-align: justify;
   hyphens: auto;
   text-justify: inter-word;
+}
+
+/* ===== Updates ===== */
+.updates-section {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: 1.02rem;
+}
+
+.updates-section h2 {
+  margin-bottom: 0.5rem;
+}
+
+.updates-section ul {
+  padding-left: 1.2rem;
+}
+
+.updates-section li {
+  line-height: 1.6;
 }
 
 /* ===== Lightbox modal ===== */
@@ -125,24 +144,47 @@ date: 2024-11-28
     <p>
       Hello! I am <strong>Joonyoung (Aaron) Bae</strong>, a final year Master student at the
       University of Southern California (USC)
-      studying Computer Science and member of the
-      <a href="https://viterbi-web.usc.edu/~cstheory/" target="_blank" rel="noopener noreferrer">USC CS Theory Group</a>.
+      studying Computer Science and a member of the
+      <a href="https://viterbi-web.usc.edu/~cstheory/" target="_blank" rel="noopener noreferrer">
+        USC CS Theory Group.
+      </a>
       I am very fortunate to be working with
-      <a href="https://csmukherjee.github.io/home/" target="_blank" rel="noopener noreferrer">Chandra Sekhar Mukherjee</a>
+      <a href="https://csmukherjee.github.io/home/" target="_blank" rel="noopener noreferrer">
+        Chandra Sekhar Mukherjee
+      </a>
       and be advised by
-      <a href="https://sites.google.com/site/jiapeng0708/home" target="_blank" rel="noopener noreferrer">Prof. Jiapeng Zhang</a>
+      <a href="https://sites.google.com/site/jiapeng0708/home" target="_blank" rel="noopener noreferrer">
+        Prof. Jiapeng Zhang
+      </a>
       on the topics of clustering and visualization of high-dimensional biological data.
     </p>
 
     <p>
-      I received my bachelor's degree from The University of Hong Kong (HKU), with major in Computer Engineering and minor in Mathematics.
+      I received my bachelor's degree from The University of Hong Kong (HKU),
+      with major in Computer Engineering and minor in Mathematics.
     </p>
 
     <p>
-      My research interest lies in capturing and explaining the structure and phenomena underlying real-world processes. From this perspective, I have analyzed high-dimensional biological and image data using mathematical tools from differential geometry, statistical machine learning, and spectral graph theory. More broadly, I am also interested in the areas of algorithmic game theory and optimization.
+      My research interest lies in capturing and explaining the structure and phenomena
+      underlying real-world processes. From this perspective, I have analyzed
+      high-dimensional biological and image data using mathematical tools from
+      differential geometry, statistical machine learning, and spectral graph theory.
+      More broadly, I am also interested in the areas of algorithmic game theory and
+      optimization.
     </p>
   </div>
 </div>
+
+<hr style="margin: 3rem 0;">
+
+<section class="updates-section">
+  <h2>Updates</h2>
+  <ul>
+    <li>
+      Our paper “<em>CoreSPECT: Enhancing Clustering Algorithms via an Interplay of Density and Geometry</em>” will be presented at <strong>AISTATS 2026</strong>!
+    </li>
+  </ul>
+</section>
 
 <!-- ===== Modal Lightbox HTML ===== -->
 <div id="imgModal" class="img-modal" role="dialog" aria-modal="true" aria-hidden="true">
@@ -178,7 +220,9 @@ date: 2024-11-28
 
   thumb.addEventListener('click', openModal);
   btnClose.addEventListener('click', closeModal);
-  modal.addEventListener('click', (e) => { if (e.target === modal) closeModal(); });
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) closeModal();
+  });
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && modal.classList.contains('open')) closeModal();
   });
