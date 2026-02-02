@@ -4,7 +4,7 @@ layout: mathjax
 nav_order: 3
 ---
 
-Besides academics, I enjoy doing music! I am an aspiring Jazz musician as well since it is the musical language to freely express what's in my mind. 
+Besides academics, I enjoy doing music! I am an aspiring Jazz musician as well, since it is the musical language to freely express what's in my mind. 
 
 ## Choir
 HKU St. John’s College Choir — **Conductor (2018)** and **Bass (2017–20)**  
