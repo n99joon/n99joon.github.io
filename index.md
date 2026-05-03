@@ -142,13 +142,12 @@ date: 2024-11-28
 
   <div class="profile-bio">
     <p>
-      Hello! I am <strong>Joonyoung (Aaron) Bae</strong>, a final year Master student at the
-      University of Southern California (USC)
-      studying Computer Science and a member of the
+      Hello! I am <strong>Joonyoung (Aaron) Bae</strong>, a Master's graduate from University of Southern California (USC)
+      majored in Computer Science and was a member of the
       <a href="https://viterbi-web.usc.edu/~cstheory/" target="_blank" rel="noopener noreferrer">
         USC CS Theory Group.
       </a>
-      I am very fortunate to be working with
+      I have been very fortunate to be working with
       <a href="https://csmukherjee.github.io/home/" target="_blank" rel="noopener noreferrer">
         Chandra Sekhar Mukherjee
       </a>
@@ -165,12 +164,7 @@ date: 2024-11-28
     </p>
 
     <p>
-      My research interest lies in capturing and explaining the structure and phenomena
-      underlying real-world processes. From this perspective, I have analyzed
-      high-dimensional biological and image data using mathematical tools from
-      differential geometry, statistical machine learning, and spectral graph theory.
-      More broadly, I am also interested in the areas of algorithmic game theory and
-      optimization.
+      I am currently working on Online Learning and Prophet Inequality.
     </p>
   </div>
 </div>
