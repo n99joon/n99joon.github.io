@@ -147,7 +147,7 @@ date: 2024-11-28
       <a href="https://viterbi-web.usc.edu/~cstheory/" target="_blank" rel="noopener noreferrer">
         USC CS Theory Group.
       </a>
-      I have been very fortunate to be working with
+      I was very fortunate to be working with
       <a href="https://csmukherjee.github.io/home/" target="_blank" rel="noopener noreferrer">
         Chandra Sekhar Mukherjee
       </a>
@@ -155,7 +155,7 @@ date: 2024-11-28
       <a href="https://sites.google.com/site/jiapeng0708/home" target="_blank" rel="noopener noreferrer">
         Prof. Jiapeng Zhang
       </a>
-      on the topics of clustering and visualization of high-dimensional biological data.
+      on the topics of clustering and visualization of high-dimensional biological data during my Master's.
     </p>
 
     <p>
@@ -164,7 +164,7 @@ date: 2024-11-28
     </p>
 
     <p>
-      I am currently working on Online Learning and Prophet Inequality.
+      I am currently working on Calibration.
     </p>
   </div>
 </div>
@@ -175,7 +175,7 @@ date: 2024-11-28
   <h2>Updates</h2>
   <ul>
     <li>
-      Our paper “<em>CoreSPECT: Enhancing Clustering Algorithms via an Interplay of Density and Geometry</em>” will be presented at <strong>AISTATS 2026</strong>!
+      Our paper “<em>CoreSPECT: Enhancing Clustering Algorithms via an Interplay of Density and Geometry</em>” was presented at <strong>AISTATS 2026</strong>.
     </li>
   </ul>
 </section>
