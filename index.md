@@ -147,7 +147,7 @@ date: 2024-11-28
       <a href="https://viterbi-web.usc.edu/~cstheory/" target="_blank" rel="noopener noreferrer">
         USC CS Theory Group.
       </a>
-      I was very fortunate to be working with
+      I was very fortunate to work with
       <a href="https://csmukherjee.github.io/home/" target="_blank" rel="noopener noreferrer">
         Chandra Sekhar Mukherjee
       </a>
