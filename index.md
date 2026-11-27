@@ -164,7 +164,7 @@ date: 2024-11-28
     </p>
 
     <p>
-      I am currently working on Calibration.
+      I am currently working on Calibration under partial feedback setting.
     </p>
   </div>
 </div>
